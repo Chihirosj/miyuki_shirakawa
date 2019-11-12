@@ -1,0 +1,99 @@
+#gallery-page{
+    margin-left: 15%;
+    overflow: hidden;
+        .gallery_title{
+            font-size: 800% !important;
+            top: 0px;
+            color: white;
+            position: relative;
+        }
+        .container{
+            padding-top: 2rem;
+            .gallery_margin{
+                margin: 10px 0px;
+                .gallery_wrapped{
+                    overflow: hidden;
+                    height: 300px;
+                    width: auto;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    .img-fluid{
+                        object-fit:cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+}
+.gallery_date{
+    font-family: 'BrandonGrotesqueBold', 'Helvetica Neue', verdana, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #999;
+}
+#gallery-singlepage{
+    margin-left: 15%;
+    color: #fff;
+    padding-top: 10%;
+    .gallery_title{
+        font-size: 400% !important;
+        color: white;
+        position: relative;
+    }
+}
+
+@media screen and (min-width:768px) and ( max-width:921px){
+    #gallery-page{
+        margin-top: 100px;
+        margin-left: 0px;
+        .gallery_title{
+            font-size: 400% !important;
+            left: 5%;
+            color: white;
+            position: relative;
+            margin-left: 5%;
+        }
+        .gallery_date{
+            margin-left: 5%;
+        }
+    }
+
+#gallery-singlepage{
+    margin-left: 0%;
+    color: #fff;
+    padding-top: 10%;
+    .gallery_title{
+        font-size: 400% !important;
+        left: 5%;
+        color: white;
+        position: relative;
+    }
+    .gallery_date{
+        margin-left: 5%;
+    }
+}
+}
+
+
+@media screen and (max-width: 767px){
+    #gallery-page{
+        padding-top: 50px;
+        margin-left: 0px;
+        .gallery_title{
+            font-size: 300% !important;
+            padding-left: 5%;
+            color: white;
+            position: relative;
+        }
+        .entry-meta{
+            margin: 10px 0 5px 0;
+        }
+    }
+    #gallery-singlepage {
+        margin-left: 0%;
+        padding: 10% 5%;
+        color: #fff;
+    }
+}

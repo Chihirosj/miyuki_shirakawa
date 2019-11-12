@@ -1,0 +1,163 @@
+#single-page{
+    margin-left: 15%;
+    .biography_title{
+        font-size: 800% !important;
+        top: 0px;
+        color: white;
+        z-index: 1;
+    }
+}
+.entry-meta, .entry-meta-bottom {
+    font-family: 'BrandonGrotesqueBold', 'Helvetica Neue', verdana, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 25px 0;
+}
+.entry-content {
+    margin: 0 0 20px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.entry-title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding: 0 0 20px 0;
+    border-bottom: solid 1px #e7e7e7;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    text-transform: uppercase;
+}
+.sidebar{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.widget .widget-title {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #999;
+    text-transform: uppercase;
+}
+.widget ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.widget ul li{
+    margin: 0 0 8px 0;
+    padding: 0 0;
+}
+.categories-list{
+    ul {
+        list-style: none;
+        padding-left: 0px;
+        overflow: hidden;
+        li {
+            float: left;
+            margin: 10px;
+        }
+    }
+}
+.widget-inside{
+    margin: 5%;
+    li {
+        list-style-type: circle;
+    }
+}
+.entry-content {
+    margin: 5%;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 767px){
+    #single-page{
+        margin: 10%;
+        .biography_title{
+            font-size: 400% !important;
+            top: 0px;
+            color: white;
+            z-index: 1;
+        }
+    }
+}
+
+@media screen and (min-width:768px) and ( max-width:1023px){
+    #single-page{
+        margin: 10% 5%;
+        .biography_title{
+            font-size: 800% !important;
+            top: 0px;
+            color: white;
+            z-index: 1;
+        }
+    }
+    .widget .widget-title {
+        font-size: 11px;
+        line-height: 20px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        color: #999;
+        text-transform: uppercase;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+#single-page{
+    margin-left: 15%;
+    .blog_title{
+        font-size: 800% !important;
+        top: 0px;
+        color: white;
+        z-index: 1;
+    }
+}
+.entry-meta, .entry-meta-bottom {
+    font-family: 'BrandonGrotesqueBold', 'Helvetica Neue', verdana, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 25px 0;
+}
+
+.entry-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding: 0 0 20px 0;
+    border-bottom: solid 1px #e7e7e7;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    text-transform: uppercase;
+}
+.sidebar{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.widget-inside{
+    margin: 5%;
+    .cat-item{
+        list-style-type: circle;
+    }
+}
+.widget .widget-title {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #999;
+    text-transform: uppercase;
+}
+.widget ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.widget ul li{
+    margin: 0 0 8px 0;
+    padding: 0 0;
+}
+}

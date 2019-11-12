@@ -1,0 +1,205 @@
+.pagenavi{
+    color: #000;
+    margin: 15px auto 90px;
+    padding: 0;
+    text-align:center;
+    clear: both;
+    font-size: 0;
+}
+@media screen and (max-width:767px){
+    .pagenavi{
+       margin: 0 auto 90px;
+        .page-numbers, .pagenavi .current{
+        font-size:0.75rem;
+        padding: 5px 6px 0;
+        margin: 0 4px;
+        height: 23px;
+        }
+    }
+
+}
+
+
+.pagenavi a{
+    text-decoration:none;
+    font-size:0.875rem;
+}
+.pagenavi .page-numbers, .pagenavi .current{
+    display: inline-block;
+    color: #000;
+    line-height: 1em;
+    padding: 4px 6px;
+    border:solid 1px #CCC;
+    text-decoration:none;
+    font-size:0.875rem;
+    line-height:1em;
+    margin: 0 3px;
+    overflow: hidden;
+}
+.pagenavi .current{
+    color: #FFF;
+    background-color: #000;
+    border:solid 1px #000;
+}
+.pagenavi a.next,
+.pagenavi a.prev,
+.pagenavi a[rel=next],
+.pagenavi a[rel=prev]
+{
+    margin: 0 0 0 20px;
+    position: relative;
+    border:none;
+    top:3px;
+    padding: 8px 18px 8px 8px;
+    display: inline-block;
+    overflow: hidden;
+    color: #000;
+    &:after{
+        content:"";
+        width:8px;
+        height:8px;
+        border-right:2px solid #000;
+        border-bottom:2px solid #000;
+        transform: rotate(-45deg);
+        transform-origin: center center;
+        position: absolute;
+        right:5px;
+        top:50%;
+        margin: -6px 0 0 0;
+    }
+}
+
+@media screen and (max-width:767px){
+.pagenavi a.next,
+.pagenavi a.prev,
+.pagenavi a[rel=next],
+.pagenavi a[rel=prev]
+{
+    top:1px;
+        width:25px;
+        height:25px;
+        padding: 0;
+        text-indent: -999em;
+        &:after{
+            width:6px;
+            height:6px;
+            right:10px;
+            margin: -4px 0 0 0;
+        }
+}
+
+.pagenavi a.prev,
+.pagenavi a[rel=prev]
+{
+    margin: 0 20px 0 0;
+    padding: 8px 8px 8px 18px;
+    &:after{
+        transform: rotate(135deg);
+        margin: -5px 0 0 0;
+        right:auto;
+        left:5px;
+    }
+    }
+}
+
+@media screen and (max-width:767px){
+.pagenavi a.prev,
+.pagenavi a[rel=prev]
+{
+    &:after{
+        margin: -4px 0 0 0;
+        left:11px;
+    }
+}
+#news-page{
+    margin-left: 0px;
+    padding-top: 50px;
+    overflow: hidden;
+    .news_title{
+        font-size: 300% !important;
+        left: 5%;
+        color: white;
+        position: relative;
+    }
+    .back-button{
+        margin: 30px 0px;
+    }
+}
+}
+
+@media screen and (min-width:768px) and ( max-width:1023px){
+    #news-page{
+        margin-left: 0px;
+        margin-top: 100px;
+        overflow: hidden;
+        .news_title{
+            font-size: 400% !important;
+            left: 5%;
+            color: white;
+            position: relative;
+        }
+        .back-button{
+            margin: 30px 0px;
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    #news-page{
+        margin-left: 15%;
+        .news_title{
+            font-size: 800% !important;
+            top: 0px;
+            color: white;
+            position: relative;
+            // z-index: 1;
+        }
+        .back-button{
+            margin: 30px 0px;
+        }
+    }
+    .entry-meta, .entry-meta-bottom {
+        font-family: 'BrandonGrotesqueBold', 'Helvetica Neue', verdana, sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #999;
+        margin: 0 0 25px 0;
+    }
+    
+    .entry-title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        padding: 0 0 20px 0;
+        border-bottom: solid 1px #e7e7e7;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        text-transform: uppercase;
+    }
+    .sidebar{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .widget-inside{
+        margin: 5%;
+        .cat-item{
+            list-style-type: circle;
+        }
+    }
+    .widget .widget-title {
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        color: #999;
+        text-transform: uppercase;
+    }
+    .widget ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .widget ul li{
+        margin: 0 0 8px 0;
+        padding: 0 0;
+    }
+}
